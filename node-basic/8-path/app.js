@@ -1,5 +1,9 @@
-// nodejs는 컴퓨터 위에서 동작하기때문에 파일시스템에 접근하기 좋다.
 const path = require("path");
+const fs = require("fs");
+/* // nodejs는 컴퓨터 위에서 동작하기때문에 파일시스템에 접근하기 좋다.
+
+
+
 
 console.log(__dirname);
 console.log(__filename);
@@ -31,5 +35,8 @@ console.log("isAbsolute?", path.isAbsolute("../"));
 console.log(path.normalize("./folder//////asdf//////sub"));
 
 //join
-console.log(__dirname + path.sep + "image");
-console.log(path.join(__dirname, "image")); // 자동으로 path를 만들어준다.
+console.log(__dirname + path.sep + "image"); */
+console.log(path.join(__dirname, "image"));
+// 자동으로 path를 만들어준다. -> image폴더를 만들어 준다.
+const test = fs.mkdirSync(path.join(__dirname, "image"));
+console.log(test);
