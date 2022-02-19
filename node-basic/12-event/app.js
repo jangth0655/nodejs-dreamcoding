@@ -12,7 +12,7 @@ emitter.on("ellie", (arg) => {
   console.log("second callback", arg);
 });
 
-emitter.emit("ellie", { message: 1 });
+emitter.emit("ellie", { message: 1 }); //event 발생
 emitter.emit("ellie", { message: 2 });
 emitter.removeListener("ellie", callback1);
 emitter.emit("ellie", { message: 3 });

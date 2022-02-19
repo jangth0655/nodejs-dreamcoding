@@ -18,6 +18,6 @@ const fs = require("fs");
 console.log("hello"); */
 
 fs.promises
-  .rename("./text-new.txt", "./text.txt")
+  .rename("./text-new123.txt", "./text.txt")
   .then(() => console.log("Done!"))
   .catch(console.error);

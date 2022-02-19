@@ -18,6 +18,7 @@ const videoDir = path.join(workingDir, "video");
 const capturedDir = path.join(workingDir, "captured");
 const duplicatedDir = path.join(workingDir, "duplicated");
 
+//console.log(videoDir);
 !fs.existsSync(videoDir) && fs.mkdirSync(videoDir);
 !fs.existsSync(capturedDir) && fs.mkdirSync(capturedDir);
 !fs.existsSync(duplicatedDir) && fs.mkdirSync(duplicatedDir);
@@ -41,7 +42,7 @@ function processFiles(files) {
 
 function isVideoFile(file) {
   const boolean = file.split(".")[1] === "mp4" || file.split(".")[1] === "mov";
-  console.log(file);
+  console.log(path.join(videoDir, file));
   return boolean;
 }
 
