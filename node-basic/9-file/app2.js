@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 
-//read a file
+//read a file 비동기적으로
 fs.readFile("./text.txt", "utf-8")
   .then((data) => console.log(data))
   .catch(console.error);
