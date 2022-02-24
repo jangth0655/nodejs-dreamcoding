@@ -30,3 +30,10 @@
   - [post](https://www.notion.so/Post-37e8cd46859448b7a0e1b07f71b121c4)
   - [route](https://www.notion.so/Router-4a376aff31254f4b90767dd424f52dfc)
 - CORS 정책과 미들웨어
+
+- Express validate
+
+  - [Validate](https://www.notion.so/Validation-7ceef80a3dee4f78b1d65b7f66bf4b6c)
+
+- 인증 및 로그인
+  - [Auth](https://www.notion.so/Authentication-9e779d8969f94429b91b928f730bf203)
