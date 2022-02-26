@@ -36,4 +36,8 @@
   - [Validate](https://www.notion.so/Validation-7ceef80a3dee4f78b1d65b7f66bf4b6c)
 
 - 인증 및 로그인
+
   - [Auth](https://www.notion.so/Authentication-9e779d8969f94429b91b928f730bf203)
+
+  - 중요한 key 설정
+  - [Config](https://www.notion.so/Configuration-7d60f8f30de943cd80902954bdb61f50)

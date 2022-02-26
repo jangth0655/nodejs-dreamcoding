@@ -4,9 +4,9 @@ import useRouter from "./router/user.js";
 
 const app = express();
 
-app.use(express.json()); //REST API에서 body를 파싱할 때 사용(읽어올 수 있다.)
+app.use(express.json()); //REST API request의 body를 파싱할 때 사용(읽어올 수 있다.)
 
-// body를 자동으로 파싱해준다. - HTML Form 요소에서 submit을 하게되면 request가 자동으로 발생하는데, 그때 전달된 body안으로 자동으로 파싱해준다.
+// body를 자동으로 파싱해준다. - HTML Form 요소에서 submit을 하게되면 request가 자동으로 발생하는데, 그때 전달된 데이터를 body안으로 자동으로 파싱해준다.
 app.use(express.urlencoded({ extended: false }));
 
 //public안에 있는 아이들을 사용자가 읽어갈 수 있도록 만들꺼야
